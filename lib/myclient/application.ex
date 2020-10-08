@@ -7,7 +7,7 @@ defmodule Myclient.Application do
     import Supervisor.Spec, warn: false
 
     children = [
-      worker(Myclient.Oauth2, []),
+      worker(Myclient.Oauth, []),
     ]
 
     opts = [

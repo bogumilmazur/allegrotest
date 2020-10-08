@@ -1,10 +1,13 @@
 use Mix.Config
 
 config :myclient,
-  token: "abc123",
+  token: "",
+  service_url: "https://api.allegro.pl",
   oauth2: %{
-    client_id: "clientx",
-    redirect_uri: "http://localhost:4000"
+    client_id: "client id",
+    client_secret: "client secret",
+    redirect_uri: "http://localhost:4000",
+    code: "B7Iplpe5tXxn5ZmPcUYigexn1d72npJY"
   }
 
 
